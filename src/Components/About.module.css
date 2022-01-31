@@ -1,0 +1,66 @@
+.detailBg {
+  background-image: url("../Assets/bg-home.jpeg");
+  background-color: rgba(133, 172, 159, 0.212);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.bar {
+  position: fixed;
+  display: flex;
+  height: 90px;
+  width: 100%;
+  /* padding-top: 25px; */
+  opacity: 0.9;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #ffad60;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  font-size: 35px;
+  color: rgb(255, 254, 254);
+  background-color: transparent;
+  border: none;
+}
+
+.btn:hover {
+  text-shadow: hsl(0, 0%, 100%) 0 -1px 4px, #ff0 0 -2px 10px,
+    #ff8000 0 -10px 20px, rgb(218, 144, 144) 0 -18px 40px;
+  cursor: pointer;
+}
+.title {
+  font-size: 35px;
+  color: rgb(255, 254, 254);
+  background-color: transparent;
+  border: none;
+}
+
+.detailContainer {
+  margin: 100px 20px 20px 20px;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* margin: 20px; */
+  background-color: #ffefad2a;
+  backdrop-filter: blur(18px);
+  border-radius: 8px;
+  -webkit-box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
+  box-shadow: 20px 20px 22px rgba(0, 0, 0, 0.2);
+  font-family: "Poppins", sans-serif;
+  color: rgb(78, 72, 72);
+  padding: 50px 100px 50px 100px;
+}
+
+.icons {
+  height: 45px;
+  width: 45px;
+}
